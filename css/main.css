@@ -1,0 +1,605 @@
+/*header*/
+header{
+	height: 50px;
+	border-bottom: 1px solid #e0e1e2;
+	padding-top: 24px;
+	padding-bottom: 28px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	color: #666;
+	line-height: 50px;
+}
+header .brand{
+	margin-left: 36px;
+}
+header .member{
+	margin-right: 30px;
+}
+header .line{
+	width: 1px;
+	height: 50px;
+	background-color: #ddd;
+	margin-left: 18px;
+	margin-right: 14px;
+}
+header h3{
+	font-size: 18px;
+	font-weight: normal;
+	
+}
+header p a:hover{
+	text-decoration: underline;
+}
+header .line-sm{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/*end header*/
+/*content*/
+.hr18{
+	height: 18px;
+}
+.content{
+	background-color: #f8f9fb;
+}
+/*left-area*/
+.left-area{
+	width: 25%;
+	border: 1px solid #ddd;
+	height: 666px;
+	background-color: #fff;
+}
+.mine{
+	padding: 38px 90px;
+	text-align: center;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+}
+.mine .my-money{
+	color: #666;
+	margin-top: 20px;
+}
+.mine .red{
+	color: #f54343;
+}
+.my a{
+	position: relative;
+	display: block;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 16px;
+	color: #666;
+	height: 60px;
+	line-height: 60px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	text-indent: 28px;
+	margin-bottom: -1px;
+}
+.my .arrow{
+	position: absolute;
+	left: 216px;
+	top: 0;
+	display: inline-block;
+	width: 56px;
+	height: 58px;
+	background: url(../img/whitearrow.png) left center no-repeat;
+}
+.mybox .active a{
+	background-color: #f54343;
+	color: #fff;
+}
+.mybox .active .arrow{
+	position: absolute;
+	left: 216px;
+	top: 0;
+	display: inline-block;
+	width: 56px;
+	height: 58px;
+	background: url(../img/redarrow.png) left center no-repeat;
+}
+/*end left-area*/
+/*right-area*/
+.right-area{
+	width: 69%;
+}
+.right-area-content{
+	width: 796px;
+	border: 1px solid #ddd;
+	height: 666px;
+	background-color: #fff;
+	padding-left: 18px;
+	padding-right: 18px;
+	margin-left: -50px;
+}
+.headline{
+	height: 54px;
+	border-bottom: 1px solid #ddd;
+	line-height: 54px;
+	font-size: 16px;
+	font-family: "Microsoft Yahei","微软雅黑";
+}
+.headline h4{
+	width: 64px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #f54343;
+	border-bottom: 2px solid #f54343;
+	margin-bottom: -1px;
+}
+.headline a{
+	font-size: 14px;
+	color: #666;
+}
+.headline a:hover{
+	text-decoration: underline;
+}
+.headline em{
+	font-style: normal;
+	font-size: 14px;
+	color: #666;
+}
+.redcross{
+	font-size: 16px;
+	color: #f54343;
+}
+.right-area-content .note,.pocket-detail p{
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 100px;
+}
+.my-basic-box{
+	position: relative;
+	margin-top: 58px;
+	margin-left: 230px;
+	margin-right: 200px;
+}
+.my-basic-box label{
+	display: inline-block;
+	width: 70px;
+	height: 54px;
+	font-size: 14px;
+	color: #666;
+	text-align: right;
+	margin-right: 12px;
+}
+#user-id{
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+	color: #333;
+}
+#user-name{
+	width: 200px;
+	height: 34px;
+	border: 1px solid #ddd;
+	padding: 0 8px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+	color: #333;
+}
+.sex-box{
+	display: inline-block;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 16px;
+	color: #666;
+}
+.sex-box input{
+	width: 30px;
+}
+#mydatepicker{
+	width: 200px;
+	height: 34px;
+	border: 1px solid #ddd;
+	padding: 0 8px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+	color: #333;
+	background: url(../img/borndate.png) 192px center no-repeat;
+}
+.confirm{
+	position: absolute;
+	left: 90px;
+	top: 250px;
+	display: inline-block;
+	width: 102px;
+	height: 46px;
+	line-height: 46px;
+	background-color: #f54343;
+	color: #fff;
+	border-radius: 5px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 16px;
+	text-align: center;
+}
+.pocket{
+	width: 798px;
+	height: 196px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-left: -50px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.pocket p{
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 16px;
+	color: #999;
+	line-height: 58px;
+	text-indent: 20px;
+}
+.pocket .rednum{
+	color: #f54343;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 36px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-right: 28px;
+}
+.submit{
+	display: inline-block;
+	width: 100px;
+	height: 44px;
+	line-height: 44px;
+	background-color: #f54343;
+	color: #fff;
+	border-radius: 5px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 16px;
+	text-align: center;
+}
+.pocket-detail{
+	width: 798px;
+	height: 448px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	margin-left: -50px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.change-into-money{
+	margin-top: 30px;
+	margin-left: 8px;
+}
+.card{
+	width: 356px;
+	height: 156px;
+	box-sizing: border-box;
+	padding:10px 20px 0 20px;
+	background-color: #fafafa;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #e2e2e2;
+	box-shadow: 1px 2px 1px #e2e2e2;
+	border-radius: 5px;
+}
+.card-choice .card-l{
+	height: 206px;
+}
+.card-choice .active{
+	border: 1px solid #f54343;
+}
+.card-choice label{
+	margin-left: 10px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 16px;
+	color: #666;
+}
+.card-choice a{
+	display: inline-block;
+	color: #f54343;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 16px;
+	margin-top: 10px;
+}
+.card-choice a:hover{
+	text-decoration: underline;
+}
+.card-choice a+a{
+	margin-left: 20px;
+}
+.card-choice input{
+	margin-top: 14px;
+}
+.card+.card{
+	margin-left: 30px;
+}	
+.card .underline{
+	border-bottom:1px solid #ddd;
+	height: 36px;
+}
+.card b{
+	font-weight: normal;
+	float: right;
+}
+.change-into-money h5{
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 8px;
+	font-weight: normal;
+}
+.other-card{
+	margin-top: 84px;
+	margin-left: 28px;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+	text-decoration: underline;
+}
+.change-money-box{
+	margin-top: 86px;
+	font-family: "Microsoft Yahei","微软雅黑";
+}
+.change-money-box strong{
+	margin-left: 10px;
+	margin-right: 30px;
+	font-size: 18px;
+	color: #666;
+	font-weight: normal;
+}
+.change-money-box span{
+	color: #f54343;
+	font-size: 14px;
+}
+.change-money-box .submit{
+	margin-top: 60px;
+}
+.headline .choose-cards{
+	width: 82px;
+}
+.headline .cards{
+	width: 50px;
+}
+.headline .money-in-real{
+	width: 34px;
+}
+.blank-box+.blank-box{
+	margin-top: 28px;
+}
+.blank{
+	width: 224px;
+	height: 42px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 0 8px;
+}
+.change-into-money .save{
+	margin-top: 58px;
+}
+/*end right-area*/
+.hr20{
+	height: 20px;
+}
+/*end content*/
+/*用户注册登录*/
+.index-box{
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+.index-img{
+	padding: 26px 100px 26px 116px;
+	border-right: 1px dashed #d2d2d2;
+}
+.login-pag{
+	margin-left: 96px;
+	margin-right: 112px;
+	width: 340px;
+	height: 332px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 2px #ddd;
+	background-color: #fff;
+}
+.login-pag-topic{
+	width: 340px;
+	height: 42px;
+	background: url(../img/login-pag-topic.png) no-repeat;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	line-height: 42px;
+	text-indent: 8px;
+}
+.login-pag-info{
+	padding: 48px 44px;
+}
+.login-pag-info label{
+	font-size: 14px;
+	color: #666;
+	line-height: 34px;
+	margin-right: 16px;
+}
+.blank-sm{
+	width: 184px;
+	height: 32px;
+	border: 1px solid #ddd;
+	padding: 0 8px;
+}
+.login-btn,.register-btn{
+	display: inline-block;
+	width: 248px;
+	height: 34px;
+	border-radius: 5px;
+	background-color: #f54343;
+	color: #fff;
+	font-family: "Microsoft Yahei","微软雅黑";
+	font-size: 14px;
+	line-height: 34px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.small-tips{
+	margin-left: 54px;
+}
+.small-tips a:hover{
+	text-decoration: underline;
+}
+.small-tips span{
+	margin: 0 16px;
+}
+.small-tips .forget-password,span{
+	color: #999;
+}
+.join-us,.login-link{
+	color: #f54343;
+}
+/*end 用户注册登录*/
+/*在线咨询*/
+.console-box{
+	height: 664px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 0 20px;
+}
+.console-box-info{
+	padding: 0 10px;
+	font-family: "Microsoft Yahei","微软雅黑";
+}
+.explanation{
+	margin: 30px 0;
+	border: 1px dashed #ddd;
+	padding: 28px 28px 66px 28px;
+	font-size: 14px;
+	color: #999;
+}
+.explanation strong{
+	color: #f54343;
+	font-weight: normal;
+}
+.console-box-info h5{
+	font-size: 16px;
+	color: #999;
+	font-weight: normal;
+}
+.customer-cost{
+	font-size: 18px;
+	color: #f54343;
+}
+.pay-by-wechat{
+	display: inline-block;
+	width: 106px;
+	height: 52px;
+	background-color: #38b035;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 52px;
+	padding: 0 22px;
+	margin-top: 60px;
+}
+.wechat-pocket{
+	display: inline-block;
+	width: 22px;
+	height: 20px;
+	background: url(../img/wechat-pocket.png) left center no-repeat;
+	margin-right: 10px;
+}
+/*end 在线咨询*/
+/*footer*/
+#question{
+	position: fixed;
+	bottom: 80px;
+    right: 30px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ddd;
+	background: url(../img/question.png) left center;
+}
+#scrollToTop{
+	position: fixed;
+	bottom: 30px;
+    right: 30px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ddd;
+	background: url(../img/scrollToTop.png) left center;
+}
+footer{
+	height: 272px;
+	background-color: #fff;
+	border-top: 2px solid #f54343;
+}
+.about-us{
+	width: 702px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+.company-introduction{
+	width: 318px;
+	font-family: "Microsoft Yahei","微软雅黑";
+}
+.line-m{
+	width: 1px;
+	height:48px; 
+	background-color:#d9d9d9;
+	margin-left: 4px;
+	margin-right: 6px;
+}
+.maintext{
+	font-size: 16px;
+	color: #1785f4;
+	font-weight: bold;
+}
+.subtext{
+	color: #b1b1b1;
+	font-size: 14px;
+	font-weight: bold;
+}
+.indent1{
+	text-indent: 32px;
+}
+.indent2{
+	text-indent: 1em;
+}
+.company-wechat{
+	width: 358px;
+}
+.wechat{
+	width: 174px;
+}
+.wechat+.wechat{
+	margin-left: 5px;
+}
+.wechat-img{
+	width: 86px;
+}
+.wechat-text{
+	width: 86px;
+	color: #666;
+	font-size: 14px;
+}
+.wechat-text strong{
+	color: #000;
+}
+.footer-nav{
+	padding: 20px 0 20px 136px;
+	font-size: 14px;
+}
+.footer-nav li{
+	float: left;
+}
+.footer-nav li a{
+	color: #000;
+}
+.footer-nav li a:hover{
+	text-decoration: underline;
+}
+footer .line-sm{
+	margin-left: 10px;
+	margin-right: 16px;
+}
+.copy{
+	color:#666;
+	font-size: 14px;
+	text-align: center;
+	line-height: 26px;
+}
+.copy a{
+	color: #ff0000;
+}
+.copy a:hover{
+	text-decoration: underline;
+}

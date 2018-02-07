@@ -1,0 +1,75 @@
+/*css reset*/
+@charset "utf-8";
+
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input,figure,figcaption{margin:0;padding:0;}
+
+body{font-size:12px;}
+
+img{border:none;}
+
+li{list-style:none;}
+
+input,select,textarea{outline:none;border: none;background: none;}
+
+textarea{resize:none;}
+
+a{text-decoration:none;color:#666;}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+/*清浮动*/
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+.clearfix{zoom:1;}
+
+.fl{float: left;}
+
+.fr{float: right;}
+
+/*公用*/
+.public-container{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.left-area{
+    float: left;
+}
+.right-area{
+    float: right;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.invisible{
+	visibility: hidden;
+}
+.text-hide{
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
